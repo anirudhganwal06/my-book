@@ -1,0 +1,38 @@
+{
+  "name": "my-book",
+  "version": "1.0.0",
+  "description": "a book store",
+  "main": "app.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.21.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.3.1",
+    "csurf": "^1.11.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "express-validator": "^6.4.0",
+    "mongoose": "^5.9.7",
+    "multer": "^1.4.2",
+    "multer-storage-cloudinary": "^2.2.1",
+    "node": "^13.12.0",
+    "nodemailer": "^6.4.6",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "nodemon": "^2.0.2",
+    "session": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "CLOUDINARY_CLOUD_NAME=dyxoda5ea CLOUDINARY_API_KEY=354653238496692 CLOUDINARY_API_SECRET=CPXm97xC2QaxRKSIaM1DzhsEXG0 NODEMAILER_TRANSPORTER_API_KEY=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 MONGODB_URI=mongodb+srv://bharti:ugji8SbjFgsyCtPz@clusterb-pc4wp.mongodb.net/myBook?retryWrites=true&w=majority node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "author": "Bharti",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "my-book"
+  }
+}
